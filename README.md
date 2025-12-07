@@ -6,4 +6,4 @@ The code in the repository entitled 'hw1_secondtry' is designed to be self-conta
 one can run the code via the google colab repo by creating a new code cell and running the following lines:
 
 %cd DeepLearningLenet5
-!python Hw1_secondtry.py
+!python EX1_318852738_230336612_345813455.py
