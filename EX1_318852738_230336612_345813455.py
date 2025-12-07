@@ -6,10 +6,6 @@ from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Set random seed for reproducibility
-torch.manual_seed(42)
-np.random.seed(42)
-
 #defining training to be on the device as I dont have a GPU :(
 device = torch.device('cpu')
 
@@ -320,3 +316,4 @@ plt.savefig('convergence_graphs.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 print('\nConvergence graphs saved as "convergence_graphs.png"')
+
